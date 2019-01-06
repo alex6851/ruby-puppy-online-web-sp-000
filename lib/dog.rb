@@ -1,7 +1,7 @@
 require 'pry'
 
 class Dog
-  
+
   @@all = []
   # @@all_names = []
   attr_accessor :name
@@ -15,7 +15,7 @@ class Dog
   def self.all
     # @@all_names.uniq!
     # @@all_names.each {|name| puts "#{name}"}
-    puts @@all.map{|dog| dog.name}
+    puts @@all.map{ |dog| dog.name }
   end
 
   def self.clear_all
